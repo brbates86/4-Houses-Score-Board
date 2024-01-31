@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Sample data (replace with your own)
     const groups = [
-        { name: "The Ohio Supermodels", score: 185 },
-        { name: "The Titanic Swim Team", score: 267 },
-        { name: "Th3 Muskateers", score: 37 },
-        { name: "The Dum-Dums", score: 318 },
+        { name: "Team 1", score: 230 },
+        { name: "Team 2", score: 54 },
+        { name: "Team 3", score: 362 },
+        { name: "Team 4", score: 296 },
     ];
 
     const scoreboard = document.getElementById("scoreboard");
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         score.textContent = group.score;
 
         const button = document.createElement("button");
-        button.textContent = "Coin UP";
+        button.textContent = "UP";
         button.addEventListener("click", function() {
             group.score += 1; // Increase the score by 1 (adjust as needed)
             score.textContent = group.score;
