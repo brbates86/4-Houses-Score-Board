@@ -1,0 +1,69 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #43B047;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #049cd8;
+    padding: 10px;
+    text-align: center;
+}
+
+#scoreboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.group-card {
+    width: 200px;
+    background-color: #049cd8;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.group-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.group-score {
+    font-size: 24px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #fbd000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Message styling and animation */
+.message {
+    position: absolute;
+    bottom: 100px; /* Adjust the distance from the bottom */
+    left: 50%; /* Center the message horizontally */
+    transform: translateX(-50%); /* Center the message horizontally */
+    white-space: nowrap; /* Prevent the text from wrapping */
+    animation: flashMessage 3s linear infinite;
+}
+
+@keyframes flashMessage {
+    0%, 49% {
+        opacity: 0; /* Make the message invisible for the first half of the animation */
+    }
+    50%, 100% {
+        opacity: 1; /* Make the message visible for the second half of the animation */
+    }
+}
