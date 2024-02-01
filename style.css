@@ -56,7 +56,7 @@ button {
     left: 50%; /* Center the message horizontally */
     transform: translateX(-50%); /* Center the message horizontally */
     white-space: nowrap; /* Prevent the text from wrapping */
-    animation: flashMessage 3s linear infinite;
+    animation: flashMessage 4s linear infinite;
 }
 
 @keyframes flashMessage {
