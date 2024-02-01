@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Sample data (replace with your own)
     const groups = [
-        { name: "Team 1", score: 230 },
-        { name: "Team 2", score: 54 },
+        { name: "Team 1", score: 260 },
+        { name: "Team 2", score: 119 },
         { name: "Team 3", score: 362 },
         { name: "Team 4", score: 296 },
     ];
