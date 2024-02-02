@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Data for the teams and scores
     const groups = [
-        { name: "Team 1", score: 260 },
-        { name: "Team 2", score: 119 },
-        { name: "Team 3", score: 362 },
-        { name: "Team 4", score: 296 },
+        { name: "Team 1", score: 250 },
+        { name: "Team 2", score: 99 },
+        { name: "Team 3", score: 457 },
+        { name: "Team 4", score: 366 },
     ];
 
     const scoreboard = document.getElementById("scoreboard");
